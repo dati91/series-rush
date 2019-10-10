@@ -9,6 +9,7 @@ export const APP_PATHS = {
   PROFILE: '/profile',
   COLLECTION: '/collection',
   SEARCH: '/search',
+  EXPLORE: '/explore',
 };
 
 export const PROFILE_PATHS = {

@@ -1,5 +1,6 @@
 import DashboardIcon from '@material-ui/icons/DashboardOutlined';
 import CollectionIcon from '@material-ui/icons/CollectionsOutlined';
+import ExploreIcon from '@material-ui/icons/ExploreOutlined';
 
 import { APP_PATHS, PROFILE_PATHS } from './paths';
 
@@ -15,6 +16,12 @@ export const MAIN_MENU = [
     title: 'page.collection.title',
     path: APP_PATHS.COLLECTION,
     icon: CollectionIcon,
+  },
+  {
+    key: 'explore',
+    title: 'page.explore.title',
+    path: APP_PATHS.EXPLORE,
+    icon: ExploreIcon,
   },
 ];
 

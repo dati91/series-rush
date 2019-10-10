@@ -62,6 +62,13 @@
     "collection": {
       "title": "Collection"
     },
+    "explore": {
+      "title": "Explore",
+      "rating": "Rating",
+      "premiered": "Premiered",
+      "status": "Status",
+      "emptyResult": "There is nothing to show, sorry. :("
+    },
     "search": {
       "title": "Search",
       "rating": "Rating",

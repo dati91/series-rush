@@ -8,6 +8,7 @@ import ForgotPassword from '../components/pages/forgot-password/forgot-password.
 import Profile from '../components/pages/profile/profile.container';
 import Dashboard from '../components/pages/dashboard/dashboard.container';
 import Collection from '../components/pages/collection/collection.container';
+import Explore from '../components/pages/explore/explore.container';
 import Search from '../components/pages/search/search.container';
 
 import ProtectedRoute from './protected-route';
@@ -17,6 +18,7 @@ import { APP_PATHS } from '../constants/paths';
 const AppRoutes = () => (
   <Switch>
     <Route exact path={APP_PATHS.LANDING} component={Landing} />
+    <Route exact path={APP_PATHS.EXPLORE} component={Explore} />
     <ProtectedRoute exact reverse path={APP_PATHS.SIGN_IN} component={SignIn} />
     <ProtectedRoute exact reverse path={APP_PATHS.SIGN_UP} component={SignUp} />
     <ProtectedRoute exact reverse path={APP_PATHS.FORGOT_PASSWORD} component={ForgotPassword} />
